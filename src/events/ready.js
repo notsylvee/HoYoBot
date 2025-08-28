@@ -6,13 +6,13 @@ module.exports = {
   async execute(client) {
     client.user.setPresence({
       status: "online",
-      activities: [
+      /*activities: [
         {
           type: ActivityType.Custom,
           name: "customstatus",
-          state: "ALRIGHT RAMBLERS, LET'S GET RAMBLING!",
+          state: "",
         },
-      ],
+      ],*/
     });
   },
 };
