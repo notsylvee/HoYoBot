@@ -21,7 +21,7 @@ module.exports = {
       const embed = new EmbedBuilder()
       .setColor(`#667dfa`)
       .setTitle(`${character.name}`)
-      .setThumbnail(`https://cdn.sylvee.xyz/hsrcharacter${character.num}.${filetype}`)
+      .setImage(`https://cdn.sylvee.xyz/hsrcharacter${character.num}.${filetype}`)
 
       await interaction.reply({ embeds: [embed] });
     },

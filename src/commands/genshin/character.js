@@ -18,7 +18,7 @@ module.exports = {
       const embed = new EmbedBuilder()
       .setColor(`#667dfa`)
       .setTitle(`${character.name}`)
-      .setThumbnail(`https://cdn.sylvee.xyz/genshincharacter${character.num}.png`)
+      .setImage(`https://cdn.sylvee.xyz/genshincharacter${character.num}.png`)
 
       await interaction.reply({ embeds: [embed] });
     },
