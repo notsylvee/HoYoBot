@@ -4,7 +4,7 @@ const fs = require("fs/promises");
 module.exports = {
     data: {
         name: "zzz-agent",
-        description: "Get a random Zenless Zone Zero agent",
+        description: "Get a random Zenless Zone Zero agent (or proxy)",
         "integration_types": [0, 1],
         "contexts": [0, 1, 2]
     },
